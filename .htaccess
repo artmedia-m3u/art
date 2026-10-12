@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^(.*)i=[^&]+&?(.*)$ [NC]
+RewriteRule ^(.*)$ /$1?%1%2 [R=301,L]
+RewriteRule ^playlist$ playlist.php [L,QSA]
+
+<IfModule mod_headers.co>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, User-Agent"
+</IfModule>
