@@ -1139,6 +1139,9 @@ http://auth.ddstream.info/validation/154?deviceMac=##:##:##:##:##:##&split=bc3a6
 #EXTINF:-1 tvg-id="5001" tvg-name="CINESTAR TV 2" tvg-logo="http://mag.link-tv.net:88/stalker_portal/misc/logos/320/957.png" group-title="FILM I SERIJE",CINESTAR TV 2
 #EXTVLCOPT:http-user-agent=Lavf53.32.100
 http://caffe.link:25461/live/Cardsharing/GC4gDOOG2V/114440.ts
+#EXTINF:-1 tvg-id="5001" tvg-name="CINESTAR TV 2" tvg-logo="http://mag.link-tv.net:88/stalker_portal/misc/logos/320/957.png" group-title="FILM I SERIJE",CINESTAR TV 2
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+http://caffe.link:25461/live/Cardsharing/GC4gDOOG2V/114440.ts
 #EXTINF:-1 tvg-id="3001" tvg-name="CINESTAR TV 2" tvg-logo="http://mag.link-tv.net:88/stalker_portal/misc/logos/320/957.png" group-title="FILM I SERIJE",CINESTAR TV 2
 #EXTVLCOPT:http-user-agent=Lavf53.32.100
 http://caffe.link:25461/live/Cardsharing/GC4gDOOG2V/114440.ts
